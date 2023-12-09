@@ -1,41 +1,35 @@
 {
-  "name": "antoniod",
-  "version": "1.1.0",
-  "description": "A personal card for Antonio D'Angelo aka well-it-wasnt-me",
-  "main": "/bin/card.js",
-  "bin": {
-    "rossanodan": "./bin/card.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/well-it-wasnt-me/my-npx-card.git"
-  },
-  "homepage": "https://blindlystupid.com",
-  "scripts": {
-    "prepublish": "npm run build",
-    "build": "node build.js",
-    "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "card",
-    "npm",
-    "npm card",
-    "npx",
-    "npx card",
-    "business card"
-  ],
-  "author": "Antonio D'Angelo <dangeloantonio179@gmail.com> (https://blindlystupid.com)",
-  "license": "MIT",
-  "files": [
-    "bin/card.js",
-    "bin/output"
-  ],
-  "devDependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
-    "standard": "^12.0.1"
-  },
-  "dependencies": {}
+    "name": "antoniod",
+    "version": "2.0.0",
+    "author": "Antonio D'Angelo <dangeloantonio179@gmail.com> (https://blindlystupid.com)",
+    "description": "A personal card for Antonio D'Angelo",
+    "main": "card.js",
+    "bin": "./card.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/well-it-wasnt-me/my-card-npx.git"
+    },
+    "scripts": {
+        "setup": "ncu -u && npm i",
+        "start": "node card.js"
+    },
+    "dependencies": {
+        "boxen": "^5.0.0",
+        "chalk": "^4.1.0",
+        "clear": "^0.1.0",
+        "cli-spinners": "^2.5.0",
+        "inquirer": "^7.3.3",
+        "open": "^7.3.1",
+        "ora": "^5.3.0",
+        "request": "^2.88.2"
+    },
+    "keywords": [
+        "card",
+        "npm",
+        "npm card",
+        "npx",
+        "npx card",
+        "business card"
+    ],
+    "license": "ISC"
 }
