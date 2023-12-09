@@ -1,6 +1,6 @@
 {
     "name": "antoniod",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "author": "Antonio D'Angelo <dangeloantonio179@gmail.com> (https://blindlystupid.com)",
     "description": "A personal card for Antonio D'Angelo",
     "main": "card.js",
