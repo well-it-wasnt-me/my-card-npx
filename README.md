@@ -1,1 +1,1 @@
-# my-card-npx
+Stolen from: rossanodan
