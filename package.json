@@ -1,6 +1,6 @@
 {
   "name": "antoniod",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A personal card for Antonio D'Angelo aka well-it-wasnt-me",
   "main": "/bin/card.js",
   "bin": {
